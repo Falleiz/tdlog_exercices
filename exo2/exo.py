@@ -28,3 +28,20 @@ fixed_tests_False = (
     ( "spam",    "eggs"  )
 )
 """
+class Element:
+    def __init__(self,argument1,argument2):
+        self.argument1=argument1
+        self.argument2=argument2
+        
+    def solution(self):
+        argument1=str(self.argument1)
+        argument2=str(self.argument2)
+        longueur_argument2=len(argument2)
+        if argument1[-longueur_argument2:]==argument2:
+            return True
+        return False
+
+
+
+
+        
