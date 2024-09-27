@@ -1,6 +1,6 @@
 import unittest
 
-from exo3 import processLines
+from exo3.exo3 import processLines
 
 
 class TestExo3(unittest.TestCase):
@@ -13,4 +13,3 @@ class TestExo3(unittest.TestCase):
 
         self.assertEqual(expected, processLines(lines))
 
-    # Ecrire une autre méthode pour vérifier le second use case
